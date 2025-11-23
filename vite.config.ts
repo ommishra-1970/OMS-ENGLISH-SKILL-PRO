@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
-    base: '/oms-english-skill-test/', // IMPORTANT: Replace with your actual GitHub repository name if different
+    base: '/oms-english-skill-pro/', // IMPORTANT: Replace with your actual GitHub repository name if different
     define: {
       // Polyfill process.env.API_KEY so usage in code works during build and runtime
       'process.env.API_KEY': JSON.stringify(env.API_KEY),
